@@ -1,0 +1,28 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="belirli gruplar">
+    <!--
+    xml dosyalar calistiracagimiz suite, test veya diger secenekleri bir goreve gore
+    gruplandirma icin de kullanilabilir
+
+    bu durumda calisacak tum test methodlarini veya classlari tek tek
+    xml dosyasina tanimlamak yerine framework'umuzde istedigimiz test methodlarini
+    istedigimiz gruplara dahil edebiliriiz.
+
+    Bunu yapabilmek icin once test methotlarimizi istedigimiz gruplara dahil
+    eder sonra xml dosyasinda
+    1-hangi gruplar calisacak/calismayacak
+    2-bu gruplar hangi package altinda aranacak
+    -->
+    <test name="belirli gruplar">
+        <groups>
+            <run>
+                <exclude name="grup1"></exclude>
+                <include name="grup2"></include>
+            </run>
+        </groups>
+        <packages>
+            <package name="tests.day16_notations"></package>
+            <package name="tests.day17_pom"></package>
+        </packages>
+    </test>
+</suite>
