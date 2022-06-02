@@ -35,7 +35,9 @@ Thread.sleep(2000);
 
         Assert.assertTrue(brcPage.ikinciLoginButonu.isDisplayed());
         Driver.closeDriver();
+
     }
+
 
     //bu classta iki test metodu  daha olusturun
     // biri yanlik kullanici
