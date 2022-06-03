@@ -28,7 +28,7 @@ public class ConfigReader {
     }
     public static String getProperty(String key){
         /*
-        test method'undan yoladagimiz string key degerini alip
+        test method'undan yolladagimiz string key degerini alip
         Properties class'indan getProperty() methodunu kullanarak bu key'e
         ait value'e bize getirdi.
         */

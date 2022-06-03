@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Cross browser class calistirma">
+    <test name="Cross browser chrome">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="tests.day22_crossBrowser.C01_AssertionsCross"></class>
+            <class name="tests.day22_crossBrowser.C02_SoftAssertCross"></class>
+        </classes>
+    </test>
+    <test name="Cross browser firefox">
+        <parameter name="browser" value="firefox"></parameter>
+        <classes>
+            <class name="tests.day22_crossBrowser.C01_AssertionsCross"></class>
+            <class name="tests.day22_crossBrowser.C02_SoftAssertCross"></class>
+        </classes>
+    </test>
+    <test name="Cross browser edge">
+        <parameter name="browser" value="edge"></parameter>
+        <classes>
+            <class name="tests.day22_crossBrowser.C01_AssertionsCross"></class>
+            <class name="tests.day22_crossBrowser.C02_SoftAssertCross"></class>
+        </classes>
+    </test>
+</suite>

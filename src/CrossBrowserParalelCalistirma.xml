@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Cross browser class calistirma" parallel="classes" thread-count="2">
+    <test name="Cross browser chrome">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="tests.day22_crossBrowser.C01_AssertionsCross"></class>
+
+        </classes>
+    </test>
+    <test name="Cross browser firefox">
+        <parameter name="browser" value="firefox"></parameter>
+        <classes>
+
+            <class name="tests.day22_crossBrowser.C02_SoftAssertCross"></class>
+        </classes>
+    </test>
+
+</suite>

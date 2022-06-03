@@ -29,7 +29,7 @@ public class Driver {
     driver classindan obje olusturulmasi mumkun olamaz
      */
 
-    public Driver(){
+    private Driver(){
 
     }
 
