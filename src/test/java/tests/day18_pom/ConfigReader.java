@@ -9,10 +9,13 @@ public class ConfigReader {
     static{
         String dosyaYolu="configuration.properties";
         try {
+
             FileInputStream fis=new FileInputStream(dosyaYolu);
             // fis dosyayolunu tanimladigimiz configuration.properties dosyasini okudu
+
             properties=new Properties();
             properties.load(fis); // fis'in okudugu bilgileri properties'e yukledi
+
 
 
 

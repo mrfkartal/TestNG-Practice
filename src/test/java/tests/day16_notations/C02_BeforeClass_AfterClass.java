@@ -17,12 +17,15 @@ public class C02_BeforeClass_AfterClass extends TestBase {
     ilerdie xml dosyalari ile birlikte bunu gorecegiz
      */
 
+
+
     @BeforeClass
     public void beforeClassMehod() {
         System.out.println("Before Class");
     }
+
     @AfterClass
-    public void afterClassMehod() {
+        public void afterClassMehod() {
         System.out.println("After Class");
 
     }
