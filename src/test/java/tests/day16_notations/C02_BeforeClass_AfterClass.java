@@ -25,13 +25,13 @@ public class C02_BeforeClass_AfterClass extends TestBase {
     }
 
     @AfterClass
-        public void afterClassMehod() {
+         public void afterClassMehod() {
         System.out.println("After Class");
 
     }
 
     @Test
-    public void test01() {
+     public void test01() {
 
         driver.get("https://www.amazon.com");
         System.out.println(driver.getCurrentUrl());
